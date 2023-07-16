@@ -8,7 +8,7 @@ class OpenAICalls:
     """
 
     def __init__(self):
-        openai.api_key = "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"
+        openai.api_key = "my-key"
         self.ai_model = "gpt-3.5-turbo"
 
     def decide_prompt_validity(self, input: str) -> str:

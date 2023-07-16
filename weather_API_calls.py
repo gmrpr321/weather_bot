@@ -7,7 +7,7 @@ class WeatherAPICalls:
     """
 
     def __init__(self):
-        self.api_key = "294db704158a02e99fcbe4959848bf52"
+        self.api_key = "my-key"
         self.base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     def make_weather_API_call(self, city_name: str) -> dict:
